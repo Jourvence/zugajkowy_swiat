@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+body, html{
+    font-family: "Roboto Mono", monospace;
+    font-size: large;
+}
+
+body{
+    background-image: url("smutek.png");
+    height: 100%;
+    background-position: center fixed;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    font-size: 60px;
+}
+
+.wrapper-main{
+    text-align: center;
+}
+
+u{
+    text-decoration: underline;
+}
+
+button{
+    display: none;
+}
+
+button{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button[name="thirdButton"]{
+    margin-left: 200px;
+}
+
+button[name="forthButton"]{
+    margin-right: 200px;
+    bottom: 200px;
+}
+
+button[name="fifthButton"]{
+    font-size: 5px;
+    padding: 2px;
+}
+
+button[name="sixthButton"]{
+    font-size: 50px;
+    padding: 8px;
+}
+
+button[name="firstButton"]{
+    display: initial;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+button[name="fifthButton"]:hover{
+    background-color: Green;
+}
+
+button[name="sixthButton"]:hover{
+    background-color: red;
+}
+
+.a{
+    display: none;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 300px;
+    animation: pulse 1s linear infinite;
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    50% {
+       -webkit-transform: scale(0.8);
+       transform: scale(0.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+       transform: scale(1);
+    }
+}
